@@ -2,7 +2,8 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman-core", :github => "middleman/middleman", :branch => 'v3-stable'
+gem "middleman-core", '4.0.0.beta.2', :github => "middleman/middleman"
+gem "middleman-blog", '3.6.0.beta.2', :github => "middleman/middleman-blog"
 
 # Specify your gem's dependencies in contentful_middleman.gemspec
 gemspec
