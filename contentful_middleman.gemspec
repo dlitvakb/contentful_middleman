@@ -19,9 +19,9 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # The version of middleman-core your extension depends on
-  s.add_dependency("middleman-core", ["4.0.0.beta.3"])
+  s.add_dependency("middleman-core", [">= 4.0.0.beta.3"])
 
-  s.add_dependency("middleman-blog", ["3.6.0.beta.2"])
+  s.add_dependency("middleman-blog", [">= 3.6.0.beta.2"])
 
   # Additional dependencies
   s.add_dependency("contentful")
